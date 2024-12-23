@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/SettingsManagerDemo.csproj": {}
+    "C:\\Users\\marti\\source\\repos\\SettingsManagerDemo\\SettingsManagerDemo\\SettingsManagerDemo.csproj": {}
   },
   "projects": {
-    "/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/SettingsManagerDemo.csproj": {
+    "C:\\Users\\marti\\source\\repos\\SettingsManagerDemo\\SettingsManagerDemo\\SettingsManagerDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/SettingsManagerDemo.csproj",
+        "projectUniqueName": "C:\\Users\\marti\\source\\repos\\SettingsManagerDemo\\SettingsManagerDemo\\SettingsManagerDemo.csproj",
         "projectName": "SettingsManagerDemo",
-        "projectPath": "/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/SettingsManagerDemo.csproj",
-        "packagesPath": "/home/martinwlsngrgv/.nuget/packages/",
-        "outputPath": "/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/obj/",
+        "projectPath": "C:\\Users\\marti\\source\\repos\\SettingsManagerDemo\\SettingsManagerDemo\\SettingsManagerDemo.csproj",
+        "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marti\\source\\repos\\SettingsManagerDemo\\SettingsManagerDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/martinwlsngrgv/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,11 +35,38 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -48,18 +78,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.10, 8.0.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

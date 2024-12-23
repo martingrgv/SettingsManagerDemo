@@ -4,6 +4,6 @@ namespace SettingsManagerDemo.Interfaces;
 
 public interface ISettingsStorage
 {
-    Task<Dictionary<string, object>> LoadSettings();
-    Task SaveSettings(string key, object value);
+    Task<Dictionary<string, string>> LoadSettingsAsync();
+    Task SaveSettingsAsync(string key, string value);
 }

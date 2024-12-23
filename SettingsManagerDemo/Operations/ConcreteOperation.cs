@@ -12,7 +12,7 @@ public class ConcreteOperation : IOperation
         await SettingsManager.Instance.SaveSettingAsync("SettingKey", "SettingValue");
         await SettingsManager.Instance.ReloadSettingsAsync();
 
-        string value = (string)await SettingsManager.Instance.GetSettingAsync("SettingKey");
+        string? value = await SettingsManager.Instance.GetSettingAsync("SettingKey") as string;
         Console.WriteLine("Setting value: " + value);
     }
 }

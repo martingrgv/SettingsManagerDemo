@@ -1,27 +1,28 @@
 using System;
+using Microsoft.EntityFrameworkCore;
+using SettingsManagerDemo.Domain.Models;
+using SettingsManagerDemo.Infrastructure;
 using SettingsManagerDemo.Interfaces;
 
 namespace SettingsManagerDemo.Storages;
 
 public class DatabaseStorage : ISettingsStorage
 {
-    public Dictionary<string, object> LoadSettings()
+    private SettingsDemoDbContext _context;
+
+    public DatabaseStorage(SettingsDemoDbContext context)
     {
-        throw new NotImplementedException();
+        _context = context;
     }
 
-    public Task SaveSettings(string key, object value)
+    public async Task<Dictionary<string, string>> LoadSettingsAsync()
     {
-        throw new NotImplementedException();
+        return await _context.Settings.ToDictionaryAsync(kvp => kvp.Key, kvp => kvp.Value);
     }
 
-    public Task SaveSettingsAsync(string key, object value)
+    public async Task SaveSettingsAsync(string key, string value)
     {
-        throw new NotImplementedException();
-    }
-
-    Task<Dictionary<string, object>> ISettingsStorage.LoadSettings()
-    {
-        throw new NotImplementedException();
+        _context.Add(new Setting(key, value));
+        await _context.SaveChangesAsync();
     }
 }

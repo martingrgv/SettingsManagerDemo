@@ -5,7 +5,7 @@ namespace SettingsManagerDemo.Domain.Models;
 
 public class Setting
 {
-    public Setting(string key, object value)
+    public Setting(string key, string value)
     {
         Key = key;
         Value = value;
@@ -13,5 +13,7 @@ public class Setting
 
     [Key]
     public string Key { get; private set; } = null!;
-    public object Value { get; private set; }= null!;
+    public string Value { get; private set; }= null!;
+
+    public void SetValue(string value) => Value = value;
 }
