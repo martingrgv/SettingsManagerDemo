@@ -1,0 +1,14 @@
+/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/bin/Debug/net8.0/SettingsManagerDemo
+/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/bin/Debug/net8.0/SettingsManagerDemo.deps.json
+/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/bin/Debug/net8.0/SettingsManagerDemo.runtimeconfig.json
+/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/bin/Debug/net8.0/SettingsManagerDemo.dll
+/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/bin/Debug/net8.0/SettingsManagerDemo.pdb
+/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/obj/Debug/net8.0/SettingsManagerDemo.GeneratedMSBuildEditorConfig.editorconfig
+/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/obj/Debug/net8.0/SettingsManagerDemo.AssemblyInfoInputs.cache
+/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/obj/Debug/net8.0/SettingsManagerDemo.AssemblyInfo.cs
+/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/obj/Debug/net8.0/SettingsManagerDemo.csproj.CoreCompileInputs.cache
+/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/obj/Debug/net8.0/SettingsManagerDemo.dll
+/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/obj/Debug/net8.0/refint/SettingsManagerDemo.dll
+/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/obj/Debug/net8.0/SettingsManagerDemo.pdb
+/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/obj/Debug/net8.0/SettingsManagerDemo.genruntimeconfig.cache
+/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/obj/Debug/net8.0/ref/SettingsManagerDemo.dll

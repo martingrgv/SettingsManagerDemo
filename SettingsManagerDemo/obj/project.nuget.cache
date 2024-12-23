@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rR+9/AK1KK/DTZNlEjwJYBUVZdfTMiLP1+X9s6vMTq1/T9M8N4I/ipt/y+35vzyCuIc8I9yZS+xVnn3rEp3+/Q==",
+  "success": true,
+  "projectFilePath": "/home/martinwlsngrgv/Code/SettingsManager/SettingsManagerDemo/SettingsManagerDemo.csproj",
+  "expectedPackageFiles": [
+    "/home/martinwlsngrgv/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.10/microsoft.aspnetcore.app.ref.8.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}
